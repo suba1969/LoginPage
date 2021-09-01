@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset password</title>
+    <link rel="icon" href="icon1.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="box" onsubmit="return resetPass()">
+        <h1> Reset Password</h1>
+        <div id="conf_error">
+			Password does not match
+        </div>
+        <div id="pass_suc">
+			Sucessfully changed password
+        </div>
+        <input type="text" placeholder="Enter new Password" id="pass" required>
+        <input type="password" placeholder="Renter Password" id="cpass" required>
+        <button type="submit" id="submit">OK</button>
+    </form>
+</body>
+<script src="rePass.js"></script>
+
+</html>

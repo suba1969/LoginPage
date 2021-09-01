@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lan="en" and dir="Itr">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="icon" href="icon1.jpg" type="image/jpg">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+<form class="box" onsubmit="return validate()">
+
+<h1>
+    login
+</h1>
+<div id="username_error">Enter correct Username</div>
+<input type="text" name="Username" placeholder="Enter Username" id="username" required>
+<div id="pass_error">Enter correct Password</div>
+<input type="password" name="Password" placeholder="Enter Password" id="password" required>
+<button type="submit" id="submit">LOGIN</button>
+<a href="forgotpass.html" style="color: #0367fd;">Forgot Password</a>
+
+</form>
+</body>
+
+<script src ="login.js"> </script>
+
+</html>

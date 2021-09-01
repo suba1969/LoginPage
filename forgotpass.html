@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forgot Password</title>
+	<link rel="icon" href="icon1.jpg" type="image/jpg">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form class="box" onsubmit="return forPassword()">
+
+		<h1>
+			forgot password
+		</h1>
+		<div id="ques_error">
+			Select security question
+		</div>
+		<div id="ans_error">
+			Incorrect Security answer
+		</div>
+		<select id="ques">
+			<option value="-1">Choose security question</option>
+			<option value="1">What is your school name?</option>
+			<option value="2">What is your pet's name?</option>
+		</select>
+		<input type="text" placeholder="Enter your answer" id="ans" required>
+		<button type="submit" id="submit">OK</button>
+		
+	</form>
+</body>
+<script src="forpass.js"></script>
+
+</html>
